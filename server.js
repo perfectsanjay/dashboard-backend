@@ -5,8 +5,9 @@ import jwt from "jsonwebtoken";
 const app = express();
 const PORT = 5000;
 
-// we have to store this secret key into the env file but for assingment i am doint it here
-const JWT_SECRET = "super_secret_key";
+// we have to store this secret key into the env file but for assingment the assignment purpose  i am doint it here and  this secret key never push to the github.
+const JWT_SECRET = "super_secret_key";//(comes in env file)
+
 
 app.use(cors());
 app.use(express.json());
